@@ -1,13 +1,13 @@
 //
-//  JSONModel.h
-//  JSONModel
+//  MSJSONModel.h
+//  MSJSONModel
 //
 
 #import <Foundation/Foundation.h>
 
-#import "JSONModelError.h"
-#import "JSONValueTransformer.h"
-#import "JSONKeyMapper.h"
+#import "MSJSONModelError.h"
+#import "MSJSONValueTransformer.h"
+#import "MSJSONKeyMapper.h"
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 #if TARGET_IPHONE_SIMULATOR
@@ -50,22 +50,22 @@ DEPRECATED_ATTRIBUTE
 /**
  * Make all objects compatible to avoid compiler warnings
  */
-@interface NSObject (JSONModelPropertyCompatibility) <Optional, Ignore>
+@interface NSObject (MSJSONModelPropertyCompatibility) <Optional, Ignore>
 @end
 
 /////////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark - JSONModel protocol
+#pragma mark - MSJSONModel protocol
 /**
- * A protocol describing an abstract JSONModel class
- * JSONModel conforms to this protocol, so it can use itself abstractly
+ * A protocol describing an abstract MSJSONModel class
+ * MSJSONModel conforms to this protocol, so it can use itself abstractly
  */
-@protocol AbstractJSONModelProtocol <NSCopying, NSCoding>
+@protocol AbstractMSJSONModelProtocol <NSCopying, NSCoding>
 
 @required
 /**
- * All JSONModel classes should implement initWithDictionary:
+ * All MSJSONModel classes should implement initWithDictionary:
  *
- * For most classes the default initWithDictionary: inherited from JSONModel itself
+ * For most classes the default initWithDictionary: inherited from MSJSONModel itself
  * should suffice, but developers have the option to also overwrite it if needed.
  *
  * @param dict a dictionary holding JSON objects, to be imported in the model.
@@ -75,9 +75,9 @@ DEPRECATED_ATTRIBUTE
 
 
 /**
- * All JSONModel classes should implement initWithData:error:
+ * All MSJSONModel classes should implement initWithData:error:
  *
- * For most classes the default initWithData: inherited from JSONModel itself
+ * For most classes the default initWithData: inherited from MSJSONModel itself
  * should suffice, but developers have the option to also overwrite it if needed.
  *
  * @param data representing a JSON response (usually fetched from web), to be imported in the model.
@@ -86,14 +86,14 @@ DEPRECATED_ATTRIBUTE
 - (instancetype)initWithData:(NSData *)data error:(NSError **)error;
 
 /**
- * All JSONModel classes should be able to export themselves as a dictionary of
+ * All MSJSONModel classes should be able to export themselves as a dictionary of
  * JSON compliant objects.
  *
- * For most classes the inherited from JSONModel default toDictionary implementation
+ * For most classes the inherited from MSJSONModel default toDictionary implementation
  * should suffice.
  *
  * @return NSDictionary dictionary of JSON compliant objects
- * @exception JSONModelTypeNotAllowedException thrown when one of your model's custom class properties
+ * @exception MSJSONModelTypeNotAllowedException thrown when one of your model's custom class properties
  * does not have matching transformer method in an JSONValueTransformer.
  */
 - (NSDictionary *)toDictionary;
@@ -103,25 +103,25 @@ DEPRECATED_ATTRIBUTE
  *
  * @param propertyNames the properties to export; if nil, all properties exported
  * @return NSDictionary dictionary of JSON compliant objects
- * @exception JSONModelTypeNotAllowedException thrown when one of your model's custom class properties
+ * @exception MSJSONModelTypeNotAllowedException thrown when one of your model's custom class properties
  * does not have matching transformer method in an JSONValueTransformer.
  */
 - (NSDictionary *)toDictionaryWithKeys:(NSArray *)propertyNames;
 @end
 
 /////////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark - JSONModel interface
+#pragma mark - MSJSONModel interface
 /**
- * The JSONModel is an abstract model class, you should not instantiate it directly,
+ * The MSJSONModel is an abstract model class, you should not instantiate it directly,
  * as it does not have any properties, and therefore cannot serve as a data model.
  * Instead you should subclass it, and define the properties you want your data model
  * to have as properties of your own class.
  */
-@interface JSONModel : NSObject <AbstractJSONModelProtocol, NSSecureCoding>
+@interface MSJSONModel : NSObject <AbstractMSJSONModelProtocol, NSSecureCoding>
 
 // deprecated
 + (NSMutableArray *)arrayOfModelsFromDictionaries:(NSArray *)array DEPRECATED_MSG_ATTRIBUTE("use arrayOfModelsFromDictionaries:error:");
-+ (void)setGlobalKeyMapper:(JSONKeyMapper *)globalKeyMapper DEPRECATED_MSG_ATTRIBUTE("override +keyMapper in a base model class instead");
++ (void)setGlobalKeyMapper:(MSJSONKeyMapper *)globalKeyMapper DEPRECATED_MSG_ATTRIBUTE("override +keyMapper in a base model class instead");
 + (NSString *)protocolForArrayProperty:(NSString *)propertyName DEPRECATED_MSG_ATTRIBUTE("use classForCollectionProperty:");
 - (void)mergeFromDictionary:(NSDictionary *)dict useKeyMapping:(BOOL)useKeyMapping DEPRECATED_MSG_ATTRIBUTE("use mergeFromDictionary:useKeyMapping:error:");
 - (NSString *)indexPropertyName DEPRECATED_ATTRIBUTE;
@@ -133,21 +133,21 @@ DEPRECATED_ATTRIBUTE
  * Create a new model instance and initialize it with the JSON from a text parameter. The method assumes UTF8 encoded input text.
  * @param string JSON text data
  * @param err an initialization error or nil
- * @exception JSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
+ * @exception MSJSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
  * or a property type in your model is not supported by JSONValueTransformer and its categories
  * @see initWithString:usingEncoding:error: for use of custom text encodings
  */
-- (instancetype)initWithString:(NSString *)string error:(JSONModelError **)err;
+- (instancetype)initWithString:(NSString *)string error:(MSJSONModelError **)err;
 
 /**
  * Create a new model instance and initialize it with the JSON from a text parameter using the given encoding.
  * @param string JSON text data
  * @param encoding the text encoding to use when parsing the string (see NSStringEncoding)
  * @param err an initialization error or nil
- * @exception JSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
+ * @exception MSJSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
  * or a property type in your model is not supported by JSONValueTransformer and its categories
  */
-- (instancetype)initWithString:(NSString *)string usingEncoding:(NSStringEncoding)encoding error:(JSONModelError **)err;
+- (instancetype)initWithString:(NSString *)string usingEncoding:(NSStringEncoding)encoding error:(MSJSONModelError **)err;
 
 /** @name Exporting model contents */
 
@@ -186,9 +186,9 @@ DEPRECATED_ATTRIBUTE
  *
  * @param array list of dictionaries to be imported as models
  * @return list of initialized data model objects
- * @exception JSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
+ * @exception MSJSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
  * or a property type in your model is not supported by JSONValueTransformer and its categories
- * @exception JSONModelInvalidDataException thrown when the input data does not include all required keys
+ * @exception MSJSONModelInvalidDataException thrown when the input data does not include all required keys
  * @see arrayOfDictionariesFromModels:
  */
 + (NSMutableArray *)arrayOfModelsFromDictionaries:(NSArray *)array error:(NSError **)err;
@@ -201,9 +201,9 @@ DEPRECATED_ATTRIBUTE
 /**
  * If you have an NSArray of data model objects, this method takes it in and outputs a list of the
  * matching dictionaries. This method does the opposite of arrayOfObjectsFromDictionaries:
- * @param array list of JSONModel objects
+ * @param array list of MSJSONModel objects
  * @return a list of NSDictionary objects
- * @exception JSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
+ * @exception MSJSONModelTypeNotAllowedException thrown when unsupported type is found in the incoming JSON,
  * or a property type in your model is not supported by JSONValueTransformer and its categories
  * @see arrayOfModelsFromDictionaries:
  */
@@ -214,7 +214,7 @@ DEPRECATED_ATTRIBUTE
 
 /**
  * Overwrite the validate method in your own models if you need to perform some custom validation over the model data.
- * This method gets called at the very end of the JSONModel initializer, thus the model is in the state that you would
+ * This method gets called at the very end of the MSJSONModel initializer, thus the model is in the state that you would
  * get it back when initialized. Check the values of any property that needs to be validated and if any invalid values
  * are encountered return NO and set the error parameter to an NSError object. If the model is valid return YES.
  *
@@ -222,7 +222,7 @@ DEPRECATED_ATTRIBUTE
  *
  * @param error a pointer to an NSError object, to pass back an error if needed
  * @return a BOOL result, showing whether the model data validates or not. You can use the convenience method
- * [JSONModelError errorModelIsInvalid] to set the NSError param if the data fails your custom validation
+ * [MSJSONModelError errorModelIsInvalid] to set the NSError param if the data fails your custom validation
  */
 - (BOOL)validate:(NSError **)error;
 
@@ -231,7 +231,7 @@ DEPRECATED_ATTRIBUTE
  * Overwrite in your models if your property names don't match your JSON key names.
  * Lookup JSONKeyMapper docs for more details.
  */
-+ (JSONKeyMapper *)keyMapper;
++ (MSJSONKeyMapper *)keyMapper;
 
 /**
  * Indicates whether the property with the given name is Optional.

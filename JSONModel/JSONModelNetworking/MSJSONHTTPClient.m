@@ -1,20 +1,20 @@
 //
-//  JSONModelHTTPClient.m
-//  JSONModel
+//  MSJSONModelHTTPClient.m
+//  MSJSONModel
 //
 
-#import "JSONHTTPClient.h"
+#import "MSJSONHTTPClient.h"
 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #pragma GCC diagnostic ignored "-Wdeprecated-implementations"
 
-typedef void (^RequestResultBlock)(NSData *data, JSONModelError *error);
+typedef void (^RequestResultBlock)(NSData *data, MSJSONModelError *error);
 
 #pragma mark - constants
 NSString* const kHTTPMethodGET = @"GET";
 NSString* const kHTTPMethodPOST = @"POST";
 
-NSString* const kContentTypeAutomatic    = @"jsonmodel/automatic";
+NSString* const kContentTypeAutomatic    = @"MSJSONModel/automatic";
 NSString* const kContentTypeJSON         = @"application/json";
 NSString* const kContentTypeWWWEncoded   = @"application/x-www-form-urlencoded";
 
@@ -39,7 +39,7 @@ static NSMutableDictionary* requestHeaders = nil;
 static NSString* requestContentType = nil;
 
 #pragma mark - implementation
-@implementation JSONHTTPClient
+@implementation MSJSONHTTPClient
 
 #pragma mark - initialization
 +(void)initialize
@@ -164,11 +164,11 @@ static NSString* requestContentType = nil;
 
     void (^completionHandler)(NSData *, NSURLResponse *, NSError *) = ^(NSData *data, NSURLResponse *origResponse, NSError *origError) {
         NSHTTPURLResponse *response = (NSHTTPURLResponse *)origResponse;
-        JSONModelError *error = nil;
+        MSJSONModelError *error = nil;
 
-        //convert an NSError to a JSONModelError
+        //convert an NSError to a MSJSONModelError
         if (origError) {
-            error = [JSONModelError errorWithDomain:origError.domain code:origError.code userInfo:origError.userInfo];
+            error = [MSJSONModelError errorWithDomain:origError.domain code:origError.code userInfo:origError.userInfo];
         }
 
         //special case for http error code 401
@@ -176,12 +176,12 @@ static NSString* requestContentType = nil;
             response = [[NSHTTPURLResponse alloc] initWithURL:url statusCode:401 HTTPVersion:@"HTTP/1.1" headerFields:@{}];
         }
 
-        //if not OK status set the err to a JSONModelError instance
+        //if not OK status set the err to a MSJSONModelError instance
         if (!error && (response.statusCode >= 300 || response.statusCode < 200)) {
-            error = [JSONModelError errorBadResponse];
+            error = [MSJSONModelError errorBadResponse];
         }
 
-        //if there was an error, assign the response to the JSONModel instance
+        //if there was an error, assign the response to the MSJSONModel instance
         if (error) {
             error.httpResponse = [response copy];
         }
@@ -266,13 +266,13 @@ static NSString* requestContentType = nil;
 
 +(void)JSONFromURLWithString:(NSString*)urlString method:(NSString*)method params:(NSDictionary *)params orBodyData:(NSData*)bodyData headers:(NSDictionary*)headers completion:(JSONObjectBlock)completeBlock
 {
-    RequestResultBlock handler = ^(NSData *responseData, JSONModelError *error) {
+    RequestResultBlock handler = ^(NSData *responseData, MSJSONModelError *error) {
         id jsonObject = nil;
 
         //step 3: if there's no response so far, return a basic error
         if (!responseData && !error) {
             //check for false response, but no network error
-            error = [JSONModelError errorBadResponse];
+            error = [MSJSONModelError errorBadResponse];
         }
 
         //step 4: if there's a response at this and no errors, convert to object
@@ -315,7 +315,7 @@ static NSString* requestContentType = nil;
 {
     [self JSONFromURLWithString:urlString method:kHTTPMethodGET
                          params:nil
-                   orBodyString:nil completion:^(id json, JSONModelError* e) {
+                   orBodyString:nil completion:^(id json, MSJSONModelError* e) {
                        if (completeBlock) completeBlock(json, e);
                    }];
 }
@@ -324,7 +324,7 @@ static NSString* requestContentType = nil;
 {
     [self JSONFromURLWithString:urlString method:kHTTPMethodGET
                          params:params
-                   orBodyString:nil completion:^(id json, JSONModelError* e) {
+                   orBodyString:nil completion:^(id json, MSJSONModelError* e) {
                        if (completeBlock) completeBlock(json, e);
                    }];
 }
@@ -333,7 +333,7 @@ static NSString* requestContentType = nil;
 {
     [self JSONFromURLWithString:urlString method:kHTTPMethodPOST
                          params:params
-                   orBodyString:nil completion:^(id json, JSONModelError* e) {
+                   orBodyString:nil completion:^(id json, MSJSONModelError* e) {
                        if (completeBlock) completeBlock(json, e);
                    }];
 
@@ -343,7 +343,7 @@ static NSString* requestContentType = nil;
 {
     [self JSONFromURLWithString:urlString method:kHTTPMethodPOST
                          params:nil
-                   orBodyString:bodyString completion:^(id json, JSONModelError* e) {
+                   orBodyString:bodyString completion:^(id json, MSJSONModelError* e) {
                        if (completeBlock) completeBlock(json, e);
                    }];
 }
@@ -353,7 +353,7 @@ static NSString* requestContentType = nil;
     [self JSONFromURLWithString:urlString method:kHTTPMethodPOST
                          params:nil
                    orBodyString:[[NSString alloc] initWithData:bodyData encoding:defaultTextEncoding]
-                                 completion:^(id json, JSONModelError* e) {
+                                 completion:^(id json, MSJSONModelError* e) {
                        if (completeBlock) completeBlock(json, e);
                    }];
 }

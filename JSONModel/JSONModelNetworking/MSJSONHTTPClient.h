@@ -1,9 +1,9 @@
 //
-//  JSONModelHTTPClient.h
-//  JSONModel
+//  MSJSONModelHTTPClient.h
+//  MSJSONModel
 //
 
-#import "JSONModel.h"
+#import "MSJSONModel.h"
 
 extern NSString *const kHTTPMethodGET DEPRECATED_ATTRIBUTE;
 extern NSString *const kHTTPMethodPOST DEPRECATED_ATTRIBUTE;
@@ -11,10 +11,10 @@ extern NSString *const kContentTypeAutomatic DEPRECATED_ATTRIBUTE;
 extern NSString *const kContentTypeJSON DEPRECATED_ATTRIBUTE;
 extern NSString *const kContentTypeWWWEncoded DEPRECATED_ATTRIBUTE;
 
-typedef void (^JSONObjectBlock)(id json, JSONModelError *err) DEPRECATED_ATTRIBUTE;
+typedef void (^JSONObjectBlock)(id json, MSJSONModelError *err) DEPRECATED_ATTRIBUTE;
 
 DEPRECATED_ATTRIBUTE
-@interface JSONHTTPClient : NSObject
+@interface MSJSONHTTPClient : NSObject
 
 + (NSMutableDictionary *)requestHeaders DEPRECATED_ATTRIBUTE;
 + (void)setDefaultTextEncoding:(NSStringEncoding)encoding DEPRECATED_ATTRIBUTE;

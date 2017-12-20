@@ -1,6 +1,6 @@
 //
 //  JSONValueTransformer.h
-//  JSONModel
+//  MSJSONModel
 //
 
 #import <Foundation/Foundation.h>
@@ -26,11 +26,11 @@ extern BOOL isNull(id value);
  * Just few examples of what can you add to JSONValueTransformer: hex colors in JSON to UIColor,
  * hex numbers in JSON to NSNumber model properties, base64 encoded strings in JSON to UIImage properties, and more.
  *
- * The class is invoked by JSONModel while transforming incoming
+ * The class is invoked by MSJSONModel while transforming incoming
  * JSON types into your target class property classes, and vice versa.
- * One static copy is create and store in the JSONModel class scope.
+ * One static copy is create and store in the MSJSONModel class scope.
  */
-@interface JSONValueTransformer : NSObject
+@interface MSJSONValueTransformer : NSObject
 
 @property (strong, nonatomic, readonly) NSDictionary *primitivesNames;
 

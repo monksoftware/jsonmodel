@@ -1,18 +1,18 @@
 //
 //  JSONKeyMapper.m
-//  JSONModel
+//  MSJSONModel
 //
 
-#import "JSONKeyMapper.h"
+#import "MSJSONKeyMapper.h"
 
-@implementation JSONKeyMapper
+@implementation MSJSONKeyMapper
 
-- (instancetype)initWithJSONToModelBlock:(JSONModelKeyMapBlock)toModel modelToJSONBlock:(JSONModelKeyMapBlock)toJSON
+- (instancetype)initWithJSONToModelBlock:(MSJSONModelKeyMapBlock)toModel modelToJSONBlock:(MSJSONModelKeyMapBlock)toJSON
 {
     return [self initWithModelToJSONBlock:toJSON];
 }
 
-- (instancetype)initWithModelToJSONBlock:(JSONModelKeyMapBlock)toJSON
+- (instancetype)initWithModelToJSONBlock:(MSJSONModelKeyMapBlock)toJSON
 {
     if (!(self = [self init]))
         return nil;
@@ -24,7 +24,7 @@
 
 - (instancetype)initWithDictionary:(NSDictionary *)map
 {
-    NSDictionary *toJSON  = [JSONKeyMapper swapKeysAndValuesInDictionary:map];
+    NSDictionary *toJSON  = [MSJSONKeyMapper swapKeysAndValuesInDictionary:map];
 
     return [self initWithModelToJSONDictionary:toJSON];
 }
@@ -42,7 +42,7 @@
     return self;
 }
 
-- (JSONModelKeyMapBlock)JSONToModelKeyBlock
+- (MSJSONModelKeyMapBlock)JSONToModelKeyBlock
 {
     return nil;
 }
@@ -122,14 +122,14 @@
     }];
 }
 
-+ (instancetype)mapper:(JSONKeyMapper *)baseKeyMapper withExceptions:(NSDictionary *)exceptions
++ (instancetype)mapper:(MSJSONKeyMapper *)baseKeyMapper withExceptions:(NSDictionary *)exceptions
 {
-    NSDictionary *toJSON = [JSONKeyMapper swapKeysAndValuesInDictionary:exceptions];
+    NSDictionary *toJSON = [MSJSONKeyMapper swapKeysAndValuesInDictionary:exceptions];
 
     return [self baseMapper:baseKeyMapper withModelToJSONExceptions:toJSON];
 }
 
-+ (instancetype)baseMapper:(JSONKeyMapper *)baseKeyMapper withModelToJSONExceptions:(NSDictionary *)toJSON
++ (instancetype)baseMapper:(MSJSONKeyMapper *)baseKeyMapper withModelToJSONExceptions:(NSDictionary *)toJSON
 {
     return [[self alloc] initWithModelToJSONBlock:^NSString *(NSString *keyName)
     {

@@ -7,74 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01D68A031E4219B800CFE82F /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A041E4219BE00CFE82F /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A051E4219C300CFE82F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* JSONModel.m */; };
-		01D68A061E4219C800CFE82F /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */; };
-		01D68A071E4219CC00CFE82F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* JSONModelClassProperty.m */; };
-		01D68A081E4219D000CFE82F /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A091E4219D600CFE82F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* JSONModelError.m */; };
-		01D68A0A1E4219DA00CFE82F /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A0B1E4219DF00CFE82F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* JSONAPI.m */; };
-		01D68A0C1E4219E100CFE82F /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A0D1E4219E600CFE82F /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* JSONHTTPClient.m */; };
-		01D68A0E1E4219E900CFE82F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A0F1E4219ED00CFE82F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* JSONModel+networking.m */; };
-		01D68A101E4219F100CFE82F /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A111E4219F600CFE82F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* JSONKeyMapper.m */; };
-		01D68A121E4219F900CFE82F /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A131E4219FE00CFE82F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* JSONValueTransformer.m */; };
-		01D68A2F1E421B9000CFE82F /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A301E421B9300CFE82F /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A311E421B9A00CFE82F /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A321E421B9C00CFE82F /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A331E421BA100CFE82F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* JSONModel.m */; };
-		01D68A341E421BA100CFE82F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* JSONModel.m */; };
-		01D68A351E421BA500CFE82F /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */; };
-		01D68A361E421BA500CFE82F /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */; };
-		01D68A371E421BA800CFE82F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* JSONModelClassProperty.m */; };
-		01D68A381E421BA900CFE82F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* JSONModelClassProperty.m */; };
-		01D68A391E421BAB00CFE82F /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A3A1E421BAE00CFE82F /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A3B1E421BB300CFE82F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* JSONModelError.m */; };
-		01D68A3C1E421BB300CFE82F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* JSONModelError.m */; };
-		01D68A3D1E421BB600CFE82F /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A3E1E421BB900CFE82F /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A3F1E421BBE00CFE82F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* JSONAPI.m */; };
-		01D68A401E421BBE00CFE82F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* JSONAPI.m */; };
-		01D68A411E421BC100CFE82F /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A421E421BC300CFE82F /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A431E421BC800CFE82F /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* JSONHTTPClient.m */; };
-		01D68A441E421BC800CFE82F /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* JSONHTTPClient.m */; };
-		01D68A451E421BCB00CFE82F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A461E421BCD00CFE82F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A471E421BD200CFE82F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* JSONModel+networking.m */; };
-		01D68A481E421BD200CFE82F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* JSONModel+networking.m */; };
-		01D68A491E421BD500CFE82F /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A4A1E421BD800CFE82F /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A4B1E421BDD00CFE82F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* JSONKeyMapper.m */; };
-		01D68A4C1E421BDD00CFE82F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* JSONKeyMapper.m */; };
-		01D68A4D1E421BE000CFE82F /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A4E1E421BE300CFE82F /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D68A4F1E421BE900CFE82F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* JSONValueTransformer.m */; };
-		01D68A501E421BE900CFE82F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* JSONValueTransformer.m */; };
-		92C9BC7C1B19A5B600D79B06 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC7D1B19A5B600D79B06 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* JSONModel.m */; };
-		92C9BC801B19A5B600D79B06 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */; };
-		92C9BC811B19A5B600D79B06 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* JSONModelClassProperty.m */; };
-		92C9BC821B19A5B600D79B06 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC831B19A5B600D79B06 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* JSONModelError.m */; };
-		92C9BC861B19A5B600D79B06 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC871B19A5B600D79B06 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC881B19A5B600D79B06 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* JSONAPI.m */; };
-		92C9BC891B19A5B600D79B06 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC8A1B19A5B600D79B06 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* JSONHTTPClient.m */; };
-		92C9BC8B1B19A5B600D79B06 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC8C1B19A5B600D79B06 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* JSONModel+networking.m */; };
-		92C9BC8D1B19A5B600D79B06 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC8E1B19A5B600D79B06 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* JSONKeyMapper.m */; };
-		92C9BC8F1B19A5B600D79B06 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C9BC901B19A5B600D79B06 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* JSONValueTransformer.m */; };
+		01D68A031E4219B800CFE82F /* MSJSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* MSJSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A041E4219BE00CFE82F /* MSJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* MSJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A051E4219C300CFE82F /* MSJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* MSJSONModel.m */; };
+		01D68A061E4219C800CFE82F /* MSJSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* MSJSONModelClassProperty.h */; };
+		01D68A071E4219CC00CFE82F /* MSJSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* MSJSONModelClassProperty.m */; };
+		01D68A081E4219D000CFE82F /* MSJSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* MSJSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A091E4219D600CFE82F /* MSJSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* MSJSONModelError.m */; };
+		01D68A0A1E4219DA00CFE82F /* MSJSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* MSJSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A0B1E4219DF00CFE82F /* MSJSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* MSJSONAPI.m */; };
+		01D68A0C1E4219E100CFE82F /* MSJSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* MSJSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A0D1E4219E600CFE82F /* MSJSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* MSJSONHTTPClient.m */; };
+		01D68A0E1E4219E900CFE82F /* MSJSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* MSJSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A0F1E4219ED00CFE82F /* MSJSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* MSJSONModel+networking.m */; };
+		01D68A101E4219F100CFE82F /* MSJSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* MSJSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A111E4219F600CFE82F /* MSJSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* MSJSONKeyMapper.m */; };
+		01D68A121E4219F900CFE82F /* MSJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* MSJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A131E4219FE00CFE82F /* MSJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* MSJSONValueTransformer.m */; };
+		01D68A2F1E421B9000CFE82F /* MSJSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* MSJSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A301E421B9300CFE82F /* MSJSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* MSJSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A311E421B9A00CFE82F /* MSJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* MSJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A321E421B9C00CFE82F /* MSJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* MSJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A331E421BA100CFE82F /* MSJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* MSJSONModel.m */; };
+		01D68A341E421BA100CFE82F /* MSJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* MSJSONModel.m */; };
+		01D68A351E421BA500CFE82F /* MSJSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* MSJSONModelClassProperty.h */; };
+		01D68A361E421BA500CFE82F /* MSJSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* MSJSONModelClassProperty.h */; };
+		01D68A371E421BA800CFE82F /* MSJSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* MSJSONModelClassProperty.m */; };
+		01D68A381E421BA900CFE82F /* MSJSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* MSJSONModelClassProperty.m */; };
+		01D68A391E421BAB00CFE82F /* MSJSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* MSJSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A3A1E421BAE00CFE82F /* MSJSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* MSJSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A3B1E421BB300CFE82F /* MSJSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* MSJSONModelError.m */; };
+		01D68A3C1E421BB300CFE82F /* MSJSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* MSJSONModelError.m */; };
+		01D68A3D1E421BB600CFE82F /* MSJSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* MSJSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A3E1E421BB900CFE82F /* MSJSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* MSJSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A3F1E421BBE00CFE82F /* MSJSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* MSJSONAPI.m */; };
+		01D68A401E421BBE00CFE82F /* MSJSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* MSJSONAPI.m */; };
+		01D68A411E421BC100CFE82F /* MSJSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* MSJSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A421E421BC300CFE82F /* MSJSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* MSJSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A431E421BC800CFE82F /* MSJSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* MSJSONHTTPClient.m */; };
+		01D68A441E421BC800CFE82F /* MSJSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* MSJSONHTTPClient.m */; };
+		01D68A451E421BCB00CFE82F /* MSJSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* MSJSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A461E421BCD00CFE82F /* MSJSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* MSJSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A471E421BD200CFE82F /* MSJSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* MSJSONModel+networking.m */; };
+		01D68A481E421BD200CFE82F /* MSJSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* MSJSONModel+networking.m */; };
+		01D68A491E421BD500CFE82F /* MSJSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* MSJSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A4A1E421BD800CFE82F /* MSJSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* MSJSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A4B1E421BDD00CFE82F /* MSJSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* MSJSONKeyMapper.m */; };
+		01D68A4C1E421BDD00CFE82F /* MSJSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* MSJSONKeyMapper.m */; };
+		01D68A4D1E421BE000CFE82F /* MSJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* MSJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A4E1E421BE300CFE82F /* MSJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* MSJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D68A4F1E421BE900CFE82F /* MSJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* MSJSONValueTransformer.m */; };
+		01D68A501E421BE900CFE82F /* MSJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* MSJSONValueTransformer.m */; };
+		92C9BC7C1B19A5B600D79B06 /* MSJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC641B19A5B600D79B06 /* MSJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC7D1B19A5B600D79B06 /* MSJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC651B19A5B600D79B06 /* MSJSONModel.m */; };
+		92C9BC801B19A5B600D79B06 /* MSJSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC681B19A5B600D79B06 /* MSJSONModelClassProperty.h */; };
+		92C9BC811B19A5B600D79B06 /* MSJSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC691B19A5B600D79B06 /* MSJSONModelClassProperty.m */; };
+		92C9BC821B19A5B600D79B06 /* MSJSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6A1B19A5B600D79B06 /* MSJSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC831B19A5B600D79B06 /* MSJSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC6B1B19A5B600D79B06 /* MSJSONModelError.m */; };
+		92C9BC861B19A5B600D79B06 /* MSJSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC6F1B19A5B600D79B06 /* MSJSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC871B19A5B600D79B06 /* MSJSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC711B19A5B600D79B06 /* MSJSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC881B19A5B600D79B06 /* MSJSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC721B19A5B600D79B06 /* MSJSONAPI.m */; };
+		92C9BC891B19A5B600D79B06 /* MSJSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC731B19A5B600D79B06 /* MSJSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC8A1B19A5B600D79B06 /* MSJSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC741B19A5B600D79B06 /* MSJSONHTTPClient.m */; };
+		92C9BC8B1B19A5B600D79B06 /* MSJSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC751B19A5B600D79B06 /* MSJSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC8C1B19A5B600D79B06 /* MSJSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC761B19A5B600D79B06 /* MSJSONModel+networking.m */; };
+		92C9BC8D1B19A5B600D79B06 /* MSJSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC781B19A5B600D79B06 /* MSJSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC8E1B19A5B600D79B06 /* MSJSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC791B19A5B600D79B06 /* MSJSONKeyMapper.m */; };
+		92C9BC8F1B19A5B600D79B06 /* MSJSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C9BC7A1B19A5B600D79B06 /* MSJSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9BC901B19A5B600D79B06 /* MSJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9BC7B1B19A5B600D79B06 /* MSJSONValueTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,23 +86,23 @@
 		01D68A2A1E421AC100CFE82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C9BC3D1B19A51100D79B06 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C9BC411B19A51100D79B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92C9BC641B19A5B600D79B06 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC651B19A5B600D79B06 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
-		92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC691B19A5B600D79B06 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
-		92C9BC6A1B19A5B600D79B06 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC6B1B19A5B600D79B06 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
-		92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC711B19A5B600D79B06 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC721B19A5B600D79B06 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
-		92C9BC731B19A5B600D79B06 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC741B19A5B600D79B06 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
-		92C9BC751B19A5B600D79B06 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC761B19A5B600D79B06 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
-		92C9BC781B19A5B600D79B06 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC791B19A5B600D79B06 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
-		92C9BC7A1B19A5B600D79B06 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		92C9BC7B1B19A5B600D79B06 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		92C9BC641B19A5B600D79B06 /* MSJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC651B19A5B600D79B06 /* MSJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSJSONModel.m; sourceTree = "<group>"; };
+		92C9BC681B19A5B600D79B06 /* MSJSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONModelClassProperty.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC691B19A5B600D79B06 /* MSJSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSJSONModelClassProperty.m; sourceTree = "<group>"; };
+		92C9BC6A1B19A5B600D79B06 /* MSJSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONModelError.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC6B1B19A5B600D79B06 /* MSJSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSJSONModelError.m; sourceTree = "<group>"; };
+		92C9BC6F1B19A5B600D79B06 /* MSJSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONModelLib.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC711B19A5B600D79B06 /* MSJSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONAPI.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC721B19A5B600D79B06 /* MSJSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSJSONAPI.m; sourceTree = "<group>"; };
+		92C9BC731B19A5B600D79B06 /* MSJSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONHTTPClient.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC741B19A5B600D79B06 /* MSJSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSJSONHTTPClient.m; sourceTree = "<group>"; };
+		92C9BC751B19A5B600D79B06 /* MSJSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSJSONModel+networking.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC761B19A5B600D79B06 /* MSJSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSJSONModel+networking.m"; sourceTree = "<group>"; };
+		92C9BC781B19A5B600D79B06 /* MSJSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONKeyMapper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC791B19A5B600D79B06 /* MSJSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSJSONKeyMapper.m; sourceTree = "<group>"; };
+		92C9BC7A1B19A5B600D79B06 /* MSJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJSONValueTransformer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		92C9BC7B1B19A5B600D79B06 /* MSJSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSJSONValueTransformer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				92C9BC411B19A51100D79B06 /* Info.plist */,
-				92C9BC6F1B19A5B600D79B06 /* JSONModelLib.h */,
+				92C9BC6F1B19A5B600D79B06 /* MSJSONModelLib.h */,
 				92C9BC631B19A5B600D79B06 /* JSONModel */,
 				92C9BC701B19A5B600D79B06 /* JSONModelNetworking */,
 				92C9BC771B19A5B600D79B06 /* JSONModelTransformations */,
@@ -201,12 +201,12 @@
 		92C9BC631B19A5B600D79B06 /* JSONModel */ = {
 			isa = PBXGroup;
 			children = (
-				92C9BC641B19A5B600D79B06 /* JSONModel.h */,
-				92C9BC651B19A5B600D79B06 /* JSONModel.m */,
-				92C9BC681B19A5B600D79B06 /* JSONModelClassProperty.h */,
-				92C9BC691B19A5B600D79B06 /* JSONModelClassProperty.m */,
-				92C9BC6A1B19A5B600D79B06 /* JSONModelError.h */,
-				92C9BC6B1B19A5B600D79B06 /* JSONModelError.m */,
+				92C9BC641B19A5B600D79B06 /* MSJSONModel.h */,
+				92C9BC651B19A5B600D79B06 /* MSJSONModel.m */,
+				92C9BC681B19A5B600D79B06 /* MSJSONModelClassProperty.h */,
+				92C9BC691B19A5B600D79B06 /* MSJSONModelClassProperty.m */,
+				92C9BC6A1B19A5B600D79B06 /* MSJSONModelError.h */,
+				92C9BC6B1B19A5B600D79B06 /* MSJSONModelError.m */,
 			);
 			path = JSONModel;
 			sourceTree = "<group>";
@@ -214,12 +214,12 @@
 		92C9BC701B19A5B600D79B06 /* JSONModelNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				92C9BC711B19A5B600D79B06 /* JSONAPI.h */,
-				92C9BC721B19A5B600D79B06 /* JSONAPI.m */,
-				92C9BC731B19A5B600D79B06 /* JSONHTTPClient.h */,
-				92C9BC741B19A5B600D79B06 /* JSONHTTPClient.m */,
-				92C9BC751B19A5B600D79B06 /* JSONModel+networking.h */,
-				92C9BC761B19A5B600D79B06 /* JSONModel+networking.m */,
+				92C9BC711B19A5B600D79B06 /* MSJSONAPI.h */,
+				92C9BC721B19A5B600D79B06 /* MSJSONAPI.m */,
+				92C9BC731B19A5B600D79B06 /* MSJSONHTTPClient.h */,
+				92C9BC741B19A5B600D79B06 /* MSJSONHTTPClient.m */,
+				92C9BC751B19A5B600D79B06 /* MSJSONModel+networking.h */,
+				92C9BC761B19A5B600D79B06 /* MSJSONModel+networking.m */,
 			);
 			path = JSONModelNetworking;
 			sourceTree = "<group>";
@@ -227,10 +227,10 @@
 		92C9BC771B19A5B600D79B06 /* JSONModelTransformations */ = {
 			isa = PBXGroup;
 			children = (
-				92C9BC781B19A5B600D79B06 /* JSONKeyMapper.h */,
-				92C9BC791B19A5B600D79B06 /* JSONKeyMapper.m */,
-				92C9BC7A1B19A5B600D79B06 /* JSONValueTransformer.h */,
-				92C9BC7B1B19A5B600D79B06 /* JSONValueTransformer.m */,
+				92C9BC781B19A5B600D79B06 /* MSJSONKeyMapper.h */,
+				92C9BC791B19A5B600D79B06 /* MSJSONKeyMapper.m */,
+				92C9BC7A1B19A5B600D79B06 /* MSJSONValueTransformer.h */,
+				92C9BC7B1B19A5B600D79B06 /* MSJSONValueTransformer.m */,
 			);
 			path = JSONModelTransformations;
 			sourceTree = "<group>";
@@ -242,15 +242,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D68A061E4219C800CFE82F /* JSONModelClassProperty.h in Headers */,
-				01D68A041E4219BE00CFE82F /* JSONModel.h in Headers */,
-				01D68A0E1E4219E900CFE82F /* JSONModel+networking.h in Headers */,
-				01D68A101E4219F100CFE82F /* JSONKeyMapper.h in Headers */,
-				01D68A031E4219B800CFE82F /* JSONModelLib.h in Headers */,
-				01D68A081E4219D000CFE82F /* JSONModelError.h in Headers */,
-				01D68A0A1E4219DA00CFE82F /* JSONAPI.h in Headers */,
-				01D68A121E4219F900CFE82F /* JSONValueTransformer.h in Headers */,
-				01D68A0C1E4219E100CFE82F /* JSONHTTPClient.h in Headers */,
+				01D68A061E4219C800CFE82F /* MSJSONModelClassProperty.h in Headers */,
+				01D68A041E4219BE00CFE82F /* MSJSONModel.h in Headers */,
+				01D68A0E1E4219E900CFE82F /* MSJSONModel+networking.h in Headers */,
+				01D68A101E4219F100CFE82F /* MSJSONKeyMapper.h in Headers */,
+				01D68A031E4219B800CFE82F /* MSJSONModelLib.h in Headers */,
+				01D68A081E4219D000CFE82F /* MSJSONModelError.h in Headers */,
+				01D68A0A1E4219DA00CFE82F /* MSJSONAPI.h in Headers */,
+				01D68A121E4219F900CFE82F /* MSJSONValueTransformer.h in Headers */,
+				01D68A0C1E4219E100CFE82F /* MSJSONHTTPClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,15 +258,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D68A351E421BA500CFE82F /* JSONModelClassProperty.h in Headers */,
-				01D68A311E421B9A00CFE82F /* JSONModel.h in Headers */,
-				01D68A451E421BCB00CFE82F /* JSONModel+networking.h in Headers */,
-				01D68A491E421BD500CFE82F /* JSONKeyMapper.h in Headers */,
-				01D68A2F1E421B9000CFE82F /* JSONModelLib.h in Headers */,
-				01D68A391E421BAB00CFE82F /* JSONModelError.h in Headers */,
-				01D68A3D1E421BB600CFE82F /* JSONAPI.h in Headers */,
-				01D68A4D1E421BE000CFE82F /* JSONValueTransformer.h in Headers */,
-				01D68A411E421BC100CFE82F /* JSONHTTPClient.h in Headers */,
+				01D68A351E421BA500CFE82F /* MSJSONModelClassProperty.h in Headers */,
+				01D68A311E421B9A00CFE82F /* MSJSONModel.h in Headers */,
+				01D68A451E421BCB00CFE82F /* MSJSONModel+networking.h in Headers */,
+				01D68A491E421BD500CFE82F /* MSJSONKeyMapper.h in Headers */,
+				01D68A2F1E421B9000CFE82F /* MSJSONModelLib.h in Headers */,
+				01D68A391E421BAB00CFE82F /* MSJSONModelError.h in Headers */,
+				01D68A3D1E421BB600CFE82F /* MSJSONAPI.h in Headers */,
+				01D68A4D1E421BE000CFE82F /* MSJSONValueTransformer.h in Headers */,
+				01D68A411E421BC100CFE82F /* MSJSONHTTPClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,15 +274,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D68A361E421BA500CFE82F /* JSONModelClassProperty.h in Headers */,
-				01D68A321E421B9C00CFE82F /* JSONModel.h in Headers */,
-				01D68A461E421BCD00CFE82F /* JSONModel+networking.h in Headers */,
-				01D68A4A1E421BD800CFE82F /* JSONKeyMapper.h in Headers */,
-				01D68A301E421B9300CFE82F /* JSONModelLib.h in Headers */,
-				01D68A3A1E421BAE00CFE82F /* JSONModelError.h in Headers */,
-				01D68A3E1E421BB900CFE82F /* JSONAPI.h in Headers */,
-				01D68A4E1E421BE300CFE82F /* JSONValueTransformer.h in Headers */,
-				01D68A421E421BC300CFE82F /* JSONHTTPClient.h in Headers */,
+				01D68A361E421BA500CFE82F /* MSJSONModelClassProperty.h in Headers */,
+				01D68A321E421B9C00CFE82F /* MSJSONModel.h in Headers */,
+				01D68A461E421BCD00CFE82F /* MSJSONModel+networking.h in Headers */,
+				01D68A4A1E421BD800CFE82F /* MSJSONKeyMapper.h in Headers */,
+				01D68A301E421B9300CFE82F /* MSJSONModelLib.h in Headers */,
+				01D68A3A1E421BAE00CFE82F /* MSJSONModelError.h in Headers */,
+				01D68A3E1E421BB900CFE82F /* MSJSONAPI.h in Headers */,
+				01D68A4E1E421BE300CFE82F /* MSJSONValueTransformer.h in Headers */,
+				01D68A421E421BC300CFE82F /* MSJSONHTTPClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,15 +290,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C9BC8B1B19A5B600D79B06 /* JSONModel+networking.h in Headers */,
-				92C9BC861B19A5B600D79B06 /* JSONModelLib.h in Headers */,
-				92C9BC8F1B19A5B600D79B06 /* JSONValueTransformer.h in Headers */,
-				92C9BC801B19A5B600D79B06 /* JSONModelClassProperty.h in Headers */,
-				92C9BC871B19A5B600D79B06 /* JSONAPI.h in Headers */,
-				92C9BC7C1B19A5B600D79B06 /* JSONModel.h in Headers */,
-				92C9BC821B19A5B600D79B06 /* JSONModelError.h in Headers */,
-				92C9BC891B19A5B600D79B06 /* JSONHTTPClient.h in Headers */,
-				92C9BC8D1B19A5B600D79B06 /* JSONKeyMapper.h in Headers */,
+				92C9BC8B1B19A5B600D79B06 /* MSJSONModel+networking.h in Headers */,
+				92C9BC861B19A5B600D79B06 /* MSJSONModelLib.h in Headers */,
+				92C9BC8F1B19A5B600D79B06 /* MSJSONValueTransformer.h in Headers */,
+				92C9BC801B19A5B600D79B06 /* MSJSONModelClassProperty.h in Headers */,
+				92C9BC871B19A5B600D79B06 /* MSJSONAPI.h in Headers */,
+				92C9BC7C1B19A5B600D79B06 /* MSJSONModel.h in Headers */,
+				92C9BC821B19A5B600D79B06 /* MSJSONModelError.h in Headers */,
+				92C9BC891B19A5B600D79B06 /* MSJSONHTTPClient.h in Headers */,
+				92C9BC8D1B19A5B600D79B06 /* MSJSONKeyMapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +383,7 @@
 		92C9BC341B19A51100D79B06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MS;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = com.jsonmodel;
 				TargetAttributes = {
@@ -459,14 +460,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D68A0D1E4219E600CFE82F /* JSONHTTPClient.m in Sources */,
-				01D68A0F1E4219ED00CFE82F /* JSONModel+networking.m in Sources */,
-				01D68A0B1E4219DF00CFE82F /* JSONAPI.m in Sources */,
-				01D68A131E4219FE00CFE82F /* JSONValueTransformer.m in Sources */,
-				01D68A091E4219D600CFE82F /* JSONModelError.m in Sources */,
-				01D68A111E4219F600CFE82F /* JSONKeyMapper.m in Sources */,
-				01D68A051E4219C300CFE82F /* JSONModel.m in Sources */,
-				01D68A071E4219CC00CFE82F /* JSONModelClassProperty.m in Sources */,
+				01D68A0D1E4219E600CFE82F /* MSJSONHTTPClient.m in Sources */,
+				01D68A0F1E4219ED00CFE82F /* MSJSONModel+networking.m in Sources */,
+				01D68A0B1E4219DF00CFE82F /* MSJSONAPI.m in Sources */,
+				01D68A131E4219FE00CFE82F /* MSJSONValueTransformer.m in Sources */,
+				01D68A091E4219D600CFE82F /* MSJSONModelError.m in Sources */,
+				01D68A111E4219F600CFE82F /* MSJSONKeyMapper.m in Sources */,
+				01D68A051E4219C300CFE82F /* MSJSONModel.m in Sources */,
+				01D68A071E4219CC00CFE82F /* MSJSONModelClassProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,14 +475,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D68A431E421BC800CFE82F /* JSONHTTPClient.m in Sources */,
-				01D68A471E421BD200CFE82F /* JSONModel+networking.m in Sources */,
-				01D68A3F1E421BBE00CFE82F /* JSONAPI.m in Sources */,
-				01D68A4F1E421BE900CFE82F /* JSONValueTransformer.m in Sources */,
-				01D68A3B1E421BB300CFE82F /* JSONModelError.m in Sources */,
-				01D68A4B1E421BDD00CFE82F /* JSONKeyMapper.m in Sources */,
-				01D68A331E421BA100CFE82F /* JSONModel.m in Sources */,
-				01D68A371E421BA800CFE82F /* JSONModelClassProperty.m in Sources */,
+				01D68A431E421BC800CFE82F /* MSJSONHTTPClient.m in Sources */,
+				01D68A471E421BD200CFE82F /* MSJSONModel+networking.m in Sources */,
+				01D68A3F1E421BBE00CFE82F /* MSJSONAPI.m in Sources */,
+				01D68A4F1E421BE900CFE82F /* MSJSONValueTransformer.m in Sources */,
+				01D68A3B1E421BB300CFE82F /* MSJSONModelError.m in Sources */,
+				01D68A4B1E421BDD00CFE82F /* MSJSONKeyMapper.m in Sources */,
+				01D68A331E421BA100CFE82F /* MSJSONModel.m in Sources */,
+				01D68A371E421BA800CFE82F /* MSJSONModelClassProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,14 +490,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D68A441E421BC800CFE82F /* JSONHTTPClient.m in Sources */,
-				01D68A481E421BD200CFE82F /* JSONModel+networking.m in Sources */,
-				01D68A401E421BBE00CFE82F /* JSONAPI.m in Sources */,
-				01D68A501E421BE900CFE82F /* JSONValueTransformer.m in Sources */,
-				01D68A3C1E421BB300CFE82F /* JSONModelError.m in Sources */,
-				01D68A4C1E421BDD00CFE82F /* JSONKeyMapper.m in Sources */,
-				01D68A341E421BA100CFE82F /* JSONModel.m in Sources */,
-				01D68A381E421BA900CFE82F /* JSONModelClassProperty.m in Sources */,
+				01D68A441E421BC800CFE82F /* MSJSONHTTPClient.m in Sources */,
+				01D68A481E421BD200CFE82F /* MSJSONModel+networking.m in Sources */,
+				01D68A401E421BBE00CFE82F /* MSJSONAPI.m in Sources */,
+				01D68A501E421BE900CFE82F /* MSJSONValueTransformer.m in Sources */,
+				01D68A3C1E421BB300CFE82F /* MSJSONModelError.m in Sources */,
+				01D68A4C1E421BDD00CFE82F /* MSJSONKeyMapper.m in Sources */,
+				01D68A341E421BA100CFE82F /* MSJSONModel.m in Sources */,
+				01D68A381E421BA900CFE82F /* MSJSONModelClassProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,14 +505,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C9BC8A1B19A5B600D79B06 /* JSONHTTPClient.m in Sources */,
-				92C9BC831B19A5B600D79B06 /* JSONModelError.m in Sources */,
-				92C9BC901B19A5B600D79B06 /* JSONValueTransformer.m in Sources */,
-				92C9BC8E1B19A5B600D79B06 /* JSONKeyMapper.m in Sources */,
-				92C9BC881B19A5B600D79B06 /* JSONAPI.m in Sources */,
-				92C9BC7D1B19A5B600D79B06 /* JSONModel.m in Sources */,
-				92C9BC811B19A5B600D79B06 /* JSONModelClassProperty.m in Sources */,
-				92C9BC8C1B19A5B600D79B06 /* JSONModel+networking.m in Sources */,
+				92C9BC8A1B19A5B600D79B06 /* MSJSONHTTPClient.m in Sources */,
+				92C9BC831B19A5B600D79B06 /* MSJSONModelError.m in Sources */,
+				92C9BC901B19A5B600D79B06 /* MSJSONValueTransformer.m in Sources */,
+				92C9BC8E1B19A5B600D79B06 /* MSJSONKeyMapper.m in Sources */,
+				92C9BC881B19A5B600D79B06 /* MSJSONAPI.m in Sources */,
+				92C9BC7D1B19A5B600D79B06 /* MSJSONModel.m in Sources */,
+				92C9BC811B19A5B600D79B06 /* MSJSONModelClassProperty.m in Sources */,
+				92C9BC8C1B19A5B600D79B06 /* MSJSONModel+networking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

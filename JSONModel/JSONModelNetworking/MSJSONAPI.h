@@ -1,13 +1,13 @@
 //
 //  JSONAPI.h
-//  JSONModel
+//  MSJSONModel
 //
 
 #import <Foundation/Foundation.h>
-#import "JSONHTTPClient.h"
+#import "MSJSONHTTPClient.h"
 
 DEPRECATED_ATTRIBUTE
-@interface JSONAPI : NSObject
+@interface MSJSONAPI : NSObject
 
 + (void)setAPIBaseURLWithString:(NSString *)base DEPRECATED_ATTRIBUTE;
 + (void)setContentType:(NSString *)ctype DEPRECATED_ATTRIBUTE;
